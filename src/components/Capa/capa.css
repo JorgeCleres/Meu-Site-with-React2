@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+.Capa {
+    background: #0e0e0e;
+    padding: 70px 0;
+    height: 36vw;
+}
+
+.Capa h1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    line-height: clamp(1em, 2.5vw, 3.5em);
+    font-family: 'Poppins', sans-serif;
+    z-index: 1000;
+    font-size: clamp(2.5em, 5vw, 6.5em);
+}
+
+.Capa p {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.Capa .btn {
+    margin: 40px auto;
+    display: block;
+    font-size: 19px;
+    padding: 5px;
+    width: 200px;
+    border: 2px solid red;
+    background: #0e0e0e !important;
+    color: #bfbfbf;
+    border: 1px solid #F50386;
+    box-shadow: 1px 3px 40px -11px #f50386;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.Capa .btn:hover {
+    box-shadow: 1px 2px 27px -14px #f50386;
+    color: white;
+}
+
+.Capa .Capa_edit-font {
+    font-size: clamp(2.5rem, 4vw, 5rem);
+    background: -webkit-linear-gradient(#007FB2, #f50386);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 3px 3px #f503843f;
+}
+
+.Capa img {
+    opacity: 0.3;
+    position: absolute;
+    top: 16vw;
+    right: 8vw;
+    width: 35%;
+    animation: mymove 30s infinite;
+}
+  
+  @keyframes mymove {
+    100% {transform: rotate(360deg);}
+  }
+
+@media(max-width: 980px) {
+    .Capa {
+        height: auto;
+    }
+    .Capa h1 {
+        line-height: clamp(0.8em, 2.5vw, 3.5em);
+        margin-bottom: 10px;
+        z-index: 1000;
+    }
+    .Capa p {
+        width: 90%;
+        margin: 15px auto 0;
+    }
+    .Capa img {
+        z-index: 0;
+        opacity: 0.2;
+        top: 80vw;
+        right: 14vw;
+        width: 46%;
+    }
+}

@@ -1,0 +1,14 @@
+.portifolio {
+    background: #0e0e0e;
+    padding: 60px 0;
+    height: auto;
+}
+
+.portifolio h3 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(1.5em, 3vw, 4em);
+    margin-bottom: 35px
+}

@@ -1,0 +1,25 @@
+.slick-track {
+    height: 140px;
+}
+
+button.slick-arrow.slick-prev,
+button.slick-arrow.slick-next {
+    display: none !important;
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.slick-track > div {
+    margin: 10px;
+}
+
+@media(max-width: 980px) {
+    .slick-track > div {
+        margin: 0 0px 190px !important;
+        padding: 10px !important;
+    }
+}

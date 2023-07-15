@@ -1,0 +1,10 @@
+.effects img {
+    position: inherit;
+    top: 0vw;
+    right: 0vw;
+    width: 6%;
+    margin: 0 auto;
+    animation: mymove 10s infinite;
+    opacity: 1;
+    display: block;
+}
